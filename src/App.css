@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  flex: auto;
 }
 
 .App-logo {
@@ -27,12 +28,13 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#symbol {
+  width: 4em;
+  padding: 0.2em;
+  margin: 1em;
+  font-size: 2em;
+  cursor: pointer;
+}
+#symbol:hover {
+  border: 2px solid black;
 }
